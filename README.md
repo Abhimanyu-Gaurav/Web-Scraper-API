@@ -1,1 +1,0 @@
-#  This is project regarding creating Web Scraper using Beautiful soup using Fast API and then integrate it with n8n.
