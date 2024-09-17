@@ -16,5 +16,13 @@ def fetch_data(url):
     return soup
 
 html_content= fetch_data(url)
-print (html_content)
 
+def extract_data(soup):
+    paragraphs = soup.find_all('p')
+    return [para.get_text() for para in  paragraphs]
+
+paragraphs = extract_data(html_content)
+
+for paragraph in paragraphs:
+    print(paragraph)
+    print("\n" + "-" * 50 + "\n")
