@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-url = "https://timesofindia.indiatimes.com/city/delhi"
+
 
 def fetch_data(url):
     try:
