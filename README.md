@@ -129,6 +129,6 @@ The tool is ideal for websites where the content is delivered without requiring 
 
 ## License
 
-- This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- This project is licensed under the MIT License - see the [License](License) file for details.
 
 ---
